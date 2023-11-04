@@ -5,7 +5,7 @@ import { ViteMinifyPlugin} from 'vite-plugin-minify'
 import htmlPurge from 'vite-plugin-purgecss';
 import handlebars from 'vite-plugin-handlebars';
 
-import handlerBarsContext from './variables.js';
+import handlerBarsContext from './variables'
 
 export default defineConfig({
     base: "/GaleriaPlantilleros/",
